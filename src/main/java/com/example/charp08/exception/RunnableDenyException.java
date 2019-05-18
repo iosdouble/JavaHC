@@ -1,4 +1,4 @@
-package com.example.charp08;
+package com.example.charp08.exception;
 
 /**
  * @ClassName RunnableDenyException

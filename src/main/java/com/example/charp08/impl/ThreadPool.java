@@ -1,4 +1,4 @@
-package com.example.charp08;
+package com.example.charp08.impl;
 
 /**
  * @ClassName ThreadPool
