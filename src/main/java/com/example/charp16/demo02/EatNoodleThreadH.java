@@ -24,12 +24,12 @@ public class EatNoodleThreadH extends Thread {
 
     private void eat() {
         synchronized (tablewarePair) {
-            System.out.println(name + " take up " + leftTool + "(left)");
+            System.out.println(name + " take up " + tablewarePair + "(left)");
 
-            System.out.println(name + " take up " + rightTool + "(right)");
+            System.out.println(name + " take up " + tablewarePair + "(right)");
             System.out.println(name + " is eating now.");
-            System.out.println(name + " put down " + rightTool + "(right)");
-            System.out.println(name + " put down " + leftTool + "(left)");
+            System.out.println(name + " put down " + tablewarePair + "(right)");
+            System.out.println(name + " put down " + tablewarePair + "(left)");
         }
     }
 }
