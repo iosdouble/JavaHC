@@ -1,0 +1,27 @@
+package com.hc.charp10;
+
+/**
+ * @ClassName NewTest
+ * @Author nihui
+ * @Date 2019/5/12 17:26
+ * @Version 1.0
+ * @Description TODO
+ */
+public class NewTest {
+    public static void main(String[] args) throws Exception {
+        BrokerDelegateClassLoader brokerclassLoader = new BrokerDelegateClassLoader();
+        MyClassLoader classLoader = new MyClassLoader();
+
+        Class<?> mClass = classLoader.loadClass("com.hc.charp10.Test");
+        Class<?> bClass = brokerclassLoader.loadClass("com.hc.charp10.Test");
+
+
+        System.out.println(mClass.getClassLoader());
+        System.out.println(bClass.getClassLoader());
+
+        System.out.println(mClass.hashCode());
+        System.out.println(bClass.hashCode());
+        System.out.println(mClass==bClass);
+
+    }
+}
