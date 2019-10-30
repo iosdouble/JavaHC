@@ -1,4 +1,4 @@
-package com.thread.charp01.mythread;
+package com.thread.charp01.t1.mythread;
 
 /**
  * @Classname MyThread
@@ -7,7 +7,6 @@ package com.thread.charp01.mythread;
  * @Created by nihui
  */
 public class MyThread extends Thread {
-
     @Override
     public void run() {
         super.run();

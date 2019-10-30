@@ -1,4 +1,4 @@
-package com.thread.charp01.randomthread;
+package com.thread.charp01.t1.randomthread;
 
 /**
  * @Classname MyThread

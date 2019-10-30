@@ -1,4 +1,4 @@
-package com.thread.charp01;
+package com.thread.charp01.t1;
 
 /**
  * @Classname Test
