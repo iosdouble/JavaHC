@@ -9,5 +9,8 @@
         <module name="JavaHC" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaHC" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
