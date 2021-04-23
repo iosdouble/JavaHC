@@ -15,9 +15,11 @@ public class Test {
         if (head == null || head.next==null){
             return ;
         }
-
+        // 前驱节点
         LNode pre = null;
+        // 当前节点
         LNode cur = null;
+        // 后继节点
         LNode next = null;
 
         // 把链表的首节点变成尾结点
